@@ -29,7 +29,7 @@ window.addEventListener('scroll', function() {
   
       $('html, body').animate(
         {
-          scrollTop: $(hash).offset().top - 100
+          scrollTop: $(hash).offset().top - 50
         },
         800
       );
