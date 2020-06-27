@@ -23,17 +23,25 @@
         align-items: center;
         margin-top: 1rem;
     }
+
     #navbar .logo {
         margin-bottom: 0.5rem;
         text-align: center;
     }
+
     #navbar ul {
         padding: 0.5rem;
+    }
+
+    #showcase .showcase-content {
+        margin-top: -2rem;
+        top: 32px;
     }
 
     #who {
         display: block;
     }
+
     #who .who-img {
         display: none;
     }
@@ -41,7 +49,27 @@
     #clients .clients-logos img {
         width: 150%;
     }
+
     #clients .clients-logos img:hover {
         width: 170%;
+    }
+
+    #contact {
+        display: block;
+    }
+
+    #contact .map {
+        height: 270px;
+        border-top: 4px solid #333;
+    }
+}
+
+@media(max-height: 568px) {
+    .l-heading {
+        font-size: 3rem;
+    }
+
+    .lead {
+        font-size: 1rem;
     }
 }

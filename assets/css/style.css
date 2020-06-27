@@ -7,7 +7,8 @@
     margin: 0;
 }
 
-html, body {
+html,
+body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     overflow-x: hidden;
@@ -240,6 +241,13 @@ p {
     display: block;
     width: 130%;
     margin: auto;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#clients .clients-logos img:hover {
+    width: 140%;
 }
 
 /* Section: Clients*/
