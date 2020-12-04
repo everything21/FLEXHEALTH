@@ -227,7 +227,7 @@ p {
 }
 
 #who .who-img {
-    background: url(../images/people.jpg) no-repeat center center/cover;
+    background: url('https://everything21.github.io/flexhealth/images/people.jpg') no-repeat center center/cover;
 }
 
 /* Section: Clients */
