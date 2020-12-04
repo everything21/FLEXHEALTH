@@ -164,7 +164,7 @@ p {
 /* Showcase */
 #showcase {
     position: relative;
-    background: url(../images/showcase.jpg) no-repeat center center/cover;
+    background: url(./images/showcase.jpg) no-repeat center center/cover;
     height: 100vh;
     color: #fff;
 }
@@ -227,7 +227,7 @@ p {
 }
 
 #who .who-img {
-    background: url(../images/people.jpg) no-repeat center center/cover;
+    background: url(./images/people.jpg) no-repeat center center/cover;
 }
 
 /* Section: Clients */
